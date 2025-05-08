@@ -1,8 +1,8 @@
-﻿using Tutorial8.Models.DTOs;
+﻿using Tutorial8.Models;
 
 namespace Tutorial8.Services;
 
 public interface ITripsService
 {
-    Task<List<TripDTO>> GetTrips();
+    Task<List<Trip>> GetTrips();
 }
